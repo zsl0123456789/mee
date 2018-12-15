@@ -1,0 +1,365 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+text-decoration: none;
+}
+body{
+	background: #f1f1f1;
+}
+body{
+	background: white;
+}
+/*头部开始*/
+.box-head{
+	width: 100%;
+	height: 0.91rem;
+	/*background: yellow;*/
+}
+.box-head-one{
+	width: 3.2rem;
+	height: 100%;
+	/*background: red;*/
+	float: left;
+	font-size: 0.27rem;
+	color: #efabd5;
+	display: flex;justify-content: center;
+	align-items: center;
+	font-weight:600 ;
+}
+.box-head-one span{
+	margin-left: 0.16rem;
+	font-weight:400 ;
+	color: #0e0e0e;
+}
+.box-head-one span i{
+	font-size: 0.25rem;
+}
+
+.box-head-two{
+	width:  4.30rem;
+	height: 100%;
+	/*background: blue;*/
+	float: right;
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+.box-one{
+	width: 3rem;
+	height: 0.64rem;
+	background:#faf8f9;
+	border-radius: 0.5rem;
+	font-size: 0.27rem;
+	display: flex;
+	align-items: center;
+	color:#b3b3b3;
+	padding-left: 0.48rem;
+}
+.csss i{
+	position: absolute;
+	right: 0.24rem;
+	top: 0.3rem;
+}
+/*头部结束*/
+/*头部下方字体开始*/
+.Department-store{
+	width: 6.27rem;
+	height: 0.3rem;
+	/*background: red;*/
+	margin-left: 0.24rem;
+	margin-top: 0.19rem;
+	display: flex;justify-content: space-between;
+	align-items: center;
+	font-size: 0.22rem;
+	color: #6d6d6d;
+	float: left;
+}
+.Department-store p{
+	color: #000000;
+	font-weight: 600;
+}
+.img-one{
+	width: 0.44rem;
+	height: 0.44rem;
+	/*background:yellowgreen ;*/
+	float: left;
+	margin-top: 0.15rem;
+	margin-left: 0.08rem;
+}
+.img-one img{
+	width: 100%;
+	display: block;
+}
+.back{
+	width: 0.46rem;
+	height: 0.08rem;
+	background: indianred;
+	margin-top: 0.8rem;
+	margin-left: 0.24rem;
+	border-radius: 0.5rem;
+}
+.red{
+	width: 5.76rem;
+	height: 0.25rem;
+	/*background: burlywood;*/
+	margin-top: 0.28rem;
+	margin-left:0.86rem;
+	font-size: 0.24rem;
+	color: #afafaf;
+	display: flex;justify-content: space-between;
+	
+}
+.red-one{
+	width: 1.2rem;
+	height: 0.25rem;
+	/*background: red;*/
+	display: flex;justify-content: space-between;
+	align-items: center;
+}
+.bot{
+	width: 0.14rem;
+	height: 0.14rem;
+	background: #e7e7e7;
+	border-radius: 50%;
+}
+/*头部下方字体结束*/
+/*图标开始*/
+.Give-surplus{
+	width: 7.02rem;
+	height: 1.34rem;
+	/*background: yellow;*/
+	margin-top: 0.26rem;
+	margin-left: 0.24rem;
+	display: flex;justify-content: space-between;
+	align-items: center;
+	color: #504e4f;
+	font-weight: 600;
+}
+.Give-surplus-one{
+	width: 1.2rem;
+	height: 100%;
+	/*background: cyan;*/
+}
+.img-pp{
+	width: 1.2rem;
+	height: 1.03rem;
+	/*background: yellowgreen;*/
+}
+.img-pp img{
+	width: 1.2rem;
+}
+.text{
+	width: 100%;
+	height: 0.31rem;
+	/*background: darkcyan;*/
+	font-size: 0.24rem;
+	text-align: center;
+}
+/*图标结束*/
+/*下面图片开始*/
+.picture{
+	width: 100%;
+	height: 1.61rem;
+	/*background: teal;*/
+	margin-top: 0.28rem;
+	display: flex;
+	justify-content: space-between;
+	padding-left: 0.24rem;
+	padding-right:0.24rem ;
+	box-sizing: border-box;
+}
+.picture-one{
+	width: 3.39rem;
+	height: 1.59rem;
+	/*background: yellowgreen;*/
+	border-radius:0.1rem ;
+}
+.picture-one img{
+	width: 100%;
+	
+}
+.transverse{
+	width: 7.02rem;
+	height: 0.03rem;
+	background: #f1f1f1;
+	margin: 0.29rem 0.24rem;
+}
+/*下面图片结束*/
+/*商品类别开始*/
+.category{
+	width: 7.02rem;
+	height: 2.54rem;
+	background: white;
+	margin: 0.29rem 0.24rem;
+}
+.category-one{
+	width: 7.02rem;
+	height: 50%;
+	/*background:red;*/
+	display: flex;justify-content: space-between;
+}
+.small-box{
+	width: 0.8rem;
+	height: 100%;
+	/*background: burlywood;*/
+}
+.small-box-one{
+	width: 100%;
+	height: 0.8rem;
+	/*background: blueviolet;*/
+}
+.small-box-one img{
+	width: 100%;
+	display: block;
+}
+.saa{
+	width: 100%;
+	height: 0.23rem;
+	/*background: tan;*/
+	font-size: 0.24rem;
+	text-align: center;
+}
+.category-two{
+	width: 7.02rem;
+	height: 50%;
+	/*background:blue;*/
+	display: flex;justify-content: space-between;
+}
+/*商品类别结束*/
+/*水果开始*/
+.furit{
+	width: 100%;
+	height: 1.8rem;
+	/*background: yellow;*/
+}
+.furit img{
+	width: 100%;
+}
+.big-box{
+	width: 100%;
+	height: 10.45rem;
+	background: #f6f8f7;
+	padding: 0 0.2rem;
+	box-sizing: border-box;
+	
+}
+
+.bopop{
+	width: 3.5rem;
+	height: 5.18rem;
+	background: white;
+	border-radius:0.1rem ;
+	float: left;
+	padding: 0.24rem 0;
+	box-sizing: border-box;
+}
+.bopop-6{
+	width: 3.5rem;
+	height: 5.18rem;
+	background: white;
+	border-radius:0.1rem ;
+	float: right;
+	padding: 0.24rem 0;
+	box-sizing: border-box;
+}
+.bopop-7{
+	width: 3.5rem;
+	height: 5.18rem;
+	background: white;
+	border-radius:0.1rem ;
+	float: left;
+	padding: 0.24rem 0;
+	box-sizing: border-box;
+	margin-top: 0.1rem;
+}
+.bopop-8{
+	width: 3.5rem;
+	height: 5.18rem;
+	background: white;
+	border-radius:0.1rem ;
+	float: right;
+	padding: 0.24rem 0;
+	box-sizing: border-box;
+	margin-top: 0.1rem;
+}
+
+.bopop-img{
+	width: 100%;
+	height: 3.17rem;
+	background: darkcyan;
+}
+.bopop-img img{
+	width: 100%;
+}
+.bopop-two{
+	width: 100%;
+	height: 2.01rem;
+	/*background: red;*/
+	font-size: 0.28rem;
+	padding: 0 0.1rem;
+	box-sizing: border-box;
+}
+.bopop-two span{
+	color: #a2a2a2;
+}
+.bopop-two i{
+	font-size: 0.65rem;
+	color: #FF4496;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.icon-one{
+	width: 100%;
+	height: 0.65rem;
+	/*background: yellow;*/
+	margin-top: 0.32rem;
+	font-size:0.24rem ;
+	position: relative;
+}
+.ppp-one{
+	font-size: 0.32rem;
+	color: #ff4496;
+}
+/*水果结束*/
+/*底部固定开始*/
+.gu{
+	width: 100%;
+	height: 1rem;
+	background: white;
+	box-shadow: 0.02rem 0.02rem 0.1rem rgba(0,0,0,0.3);
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	justify-content: space-around;
+	padding: 0 0.2rem;
+	box-sizing: border-box;
+}
+.gu1{
+	width: 1rem;
+	height: 100%;
+	/*background: yellow;*/
+	
+}
+.gu1 i{
+	display: block;
+	font-size:0.5rem;
+	text-align: center;
+	line-height: 0.8rem;
+	color: coral;
+}
+#boo{
+	color: #9e9e9e;
+}
+.gu1 p{
+	font-size: 0.2rem;
+	text-align: center;
+	position: relative;
+	bottom: 0.15rem;
+}
+
+/*底部固定结束*/
